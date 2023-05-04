@@ -1,0 +1,299 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: #242B33;
+}
+
+ul,a{
+    text-decoration: none;
+    list-style: none;
+    padding: 0px;
+}
+
+.main_photo{
+    background-image:linear-gradient(180deg, #242B33 11.98%, rgba(45, 52, 60, 0.38) 51.04%, #242B33 92.19%), url(../img/heder.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.section_header{
+    display: flex;
+    justify-content: center;
+}
+
+.container_header{
+    width: 1100px;
+    display: flex;
+    padding: 30px 15px 71px 15px;
+}
+
+.logo{
+    text-align: center;
+    width: 167px;
+}
+
+.HouseVOP{
+    font-family: 'Post No Bills Jaffna SemiBold';
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    color: #FFFFFF;
+}
+
+.complex{
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.12em;
+    color: #FFFFFF;
+    margin-top: 15px;
+}
+
+.container_nav{
+    display: flex;
+    margin-left: 382px;
+}
+
+.container_nav>.el{
+    margin-right: 40px;
+    display: flex;
+}
+
+.container_nav>.el:nth-child(5){
+    margin: 0px;
+}
+
+.ul_header_text{
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.section_hero{
+    display: flex;
+    justify-content: center;
+}
+
+.container_hero{
+    width: 1100px;
+    text-align: center;
+    padding: 71px 15px 132px 15px;
+}
+
+.main_text_hero{
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    color: #D4C17F; 
+}
+
+.maus{
+    margin: 100px 0px 200px 0px;
+}
+
+.address_hero{
+    display: flex;
+    justify-content: center;
+}
+
+.adres_hero{
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-right: 130px;
+}
+
+.numer_hero{
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.text_reasons{
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.main_text_apartments{
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #D4C17F;
+}
+
+.text_apartments{
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.main_text_see{
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #D4C17F;
+}
+
+.text_see{
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.input_name_see{
+    background: #FFFFFF;
+    opacity: 0.2;
+    border: none;
+}
+
+.input_numer_see{
+    background: #FFFFFF;
+    opacity: 0.2;
+    text-decoration: none;
+    border: none;
+}
+
+.text_name_see{
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    color: #BEBEBE;
+}
+
+.text_numer_see{
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    color: #BEBEBE;
+}
+
+.text_see_var{
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #E7E7E7;
+}
+
+.button_see{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+    color: #FFFFFF;
+    padding: 12px 54px;
+    background: #D4C17F;
+    border: none;
+    cursor: pointer;
+}
+
+.mein_text_map{
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #D4C17F;
+}
+
+.main_text_question{
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #D4C17F;
+}
+
+.text_question{
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #E7E7E7;
+}
+
+.input_name_question{
+    background: #FFFFFF;
+    opacity: 0.2;
+    border: none;
+}
+
+.input_numer_question{
+    background: #FFFFFF;
+    opacity: 0.2;
+    border: none;
+}
+
+.text_name_question{
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    color: #BEBEBE;
+}
+
+.text_numer_question{
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    color: #BEBEBE;
+}
+
+.button_question{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+    color: #FFFFFF;
+    background: #D4C17F;
+    border: none;
+    padding: 12px 54px;
+    cursor: pointer;
+}
+
+.text_ul_footer{
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF; 
+}
+
+.text_footer_address{
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;  
+}
+
+.email_footer_address{
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    color: #D4C17F;
+}

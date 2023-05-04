@@ -236,6 +236,8 @@ ul,a{
     display: flex;
     justify-content: center;
     background-image:linear-gradient(180deg, #242B33 10.42%, rgba(36, 43, 51, 0) 50.52%, #242B33 90.1%), linear-gradient(0deg, rgba(36, 43, 51, 0.9), rgba(36, 43, 51, 0.9)), url(../img/form.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .container_see{
@@ -275,7 +277,7 @@ ul,a{
     background: #FFFFFF;
     opacity: 0.2;
     border: none
-    
+
 }
 
 .input_numer_see{
@@ -319,6 +321,24 @@ ul,a{
     background: #D4C17F;
     border: none;
     cursor: pointer;
+}
+
+.section_video{
+    display: flex;
+    justify-content: center;
+}
+
+.container_video{
+    width: 1100px;
+    padding: 0px 15px 90px 15px;
+    text-align: center;
+    position: relative;
+}
+
+.play{
+    position: absolute;
+    right: 510px;
+    top: 270px;
 }
 
 .mein_text_map{

@@ -11,7 +11,7 @@ ul,a{
 }
 
 .main_photo{
-    background-image:linear-gradient(180deg, #242B33 11.98%, rgba(45, 52, 60, 0.38) 51.04%, #242B33 92.19%), url(../img/heder.jpg);
+    background-image:linear-gradient(180deg, #242B33 11.98%, rgba(45, 52, 60, 0.38) 51.04%, #242B33 92.19%), url(../img/header.jpg);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -108,6 +108,7 @@ ul,a{
     line-height: 21px;
     color: #FFFFFF;
     margin-right: 130px;
+    display: inline;
 }
 
 .numer_hero{
@@ -116,6 +117,31 @@ ul,a{
     font-size: 18px;
     line-height: 21px;
     color: #FFFFFF;
+    display: inline;
+}
+
+.section_reasons{
+    display: flex;
+    justify-content: center;
+}
+
+.container_reasons{
+    width: 1100px;
+    padding: 120px 15px 60px 15px;
+}
+
+.ul_reasons{
+    display: flex;
+    justify-content: center;
+}
+
+.ul_reasons>.el{
+    width: 193px;
+    margin-right: 70px;
+}
+
+.ul_reasons>.el:nth-child(4){
+    margin: 0px;
 }
 
 .text_reasons{
@@ -124,6 +150,43 @@ ul,a{
     font-size: 20px;
     line-height: 27px;
     color: #FFFFFF;
+    text-align: center;
+}
+
+.text_reasons::before{
+    display: inline-block;
+    content: "";
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 53px;
+    height: 80px;
+    width: 193px;
+}
+
+.bench::before{
+    background-image: url(../img/bench.svg);
+}
+
+.building::before{
+    background-image: url(../img/building.svg);
+}
+
+.fountain::before{
+    background-image: url(../img/fountain.svg);
+}
+
+.bicycle::before{
+    background-image: url(../img/bicycle.svg);
+}
+
+.seaction_apartments{
+    display: flex;
+    justify-content: center;
+}
+
+.container_apartments{
+    width: 1100px;
+    padding: 60px 15px 0px 15px;
 }
 
 .main_text_apartments{
@@ -134,12 +197,56 @@ ul,a{
     color: #D4C17F;
 }
 
+.ul_apartments{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ul_apartments>.el{
+    margin: 0px 30px 30px 0px;
+    position: relative;
+}
+
+.ul_apartments>.el:nth-child(2){
+    margin-right: 0px;
+}
+
+.ul_apartments>.el:nth-child(3){
+    margin-bottom: 0px;
+}
+
+.ul_apartments>.el:nth-child(4){
+    margin-bottom: 0px;
+    margin-right: 0px;
+}
+
 .text_apartments{
     font-family: 'Raleway';
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
     color: #FFFFFF;
+    position: absolute;
+    bottom: 27px;
+    left: 50px;
+    z-index: 1;
+}
+
+.section_see{
+    display: flex;
+    justify-content: center;
+    background-image:linear-gradient(180deg, #242B33 10.42%, rgba(36, 43, 51, 0) 50.52%, #242B33 90.1%), linear-gradient(0deg, rgba(36, 43, 51, 0.9), rgba(36, 43, 51, 0.9)), url(../img/form.jpg);
+}
+
+.container_see{
+    width: 1100px;
+    padding: 0px 15px 0px 15px;
+    display: flex;
+    padding: 180px 0px 180px 0px;
+}
+
+.container_text_see{
+    margin-right: 35px;
 }
 
 .main_text_see{
@@ -148,6 +255,7 @@ ul,a{
     font-size: 36px;
     line-height: 48px;
     color: #D4C17F;
+    margin-bottom: 50px;
 }
 
 .text_see{
@@ -156,12 +264,18 @@ ul,a{
     font-size: 16px;
     line-height: 24px;
     color: #FFFFFF;
+    width: 535px;
+}
+
+.form_see{
+    
 }
 
 .input_name_see{
     background: #FFFFFF;
     opacity: 0.2;
-    border: none;
+    border: none
+    
 }
 
 .input_numer_see{

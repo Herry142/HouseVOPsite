@@ -269,10 +269,6 @@ ul,a{
     width: 535px;
 }
 
-.form_see{
-    
-}
-
 .input_name_see{
     background: #FFFFFF;
     opacity: 0.2;
@@ -341,12 +337,38 @@ ul,a{
     top: 270px;
 }
 
+.section_map{
+    display: flex;
+    justify-content: center;
+}
+
+.container_map{
+    width: 1100px;
+    padding: 90px 15px 90px 15px;
+}
+
 .mein_text_map{
     font-family: 'Playfair Display';
     font-weight: 700;
     font-size: 36px;
     line-height: 48px;
     color: #D4C17F;
+    margin-bottom: 100px;
+}
+
+.secton_question{
+    display: flex;
+    justify-content: center;
+}
+
+.container_question{
+    width: 1100px;
+    padding: 90px 15px 90px 15px;
+}
+
+.form_question{
+    display: flex;
+    text-align: center;
 }
 
 .main_text_question{
@@ -355,6 +377,7 @@ ul,a{
     font-size: 36px;
     line-height: 48px;
     color: #D4C17F;
+    margin-bottom: 61px;
 }
 
 .text_question{
@@ -363,6 +386,8 @@ ul,a{
     font-size: 13px;
     line-height: 16px;
     color: #E7E7E7;
+    width: 255px;
+    margin-right: 35px;
 }
 
 .input_name_question{
@@ -405,6 +430,35 @@ ul,a{
     cursor: pointer;
 }
 
+.section_footer{
+    display: flex;
+    justify-content: center;
+}
+
+.container_footer{
+    width: 1100px;
+    padding: 90px 15px 51px 15px;
+    display: flex;
+}
+
+.logo_footer{
+    text-align: center;
+    width: 167px;
+    margin-right: 166px;
+}
+
+.ul_footer{
+    margin-right: 434px;
+}
+
+.ul_footer>.el{
+    margin-bottom: 15px;
+}
+
+.ul_footer>.el:nth-child(5){
+    margin: 0px;
+}
+
 .text_ul_footer{
     font-family: 'Raleway';
     font-weight: 400;
@@ -420,7 +474,12 @@ ul,a{
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.05em;
-    color: #FFFFFF;  
+    color: #FFFFFF;
+    margin-bottom: 15px; 
+}
+
+.text_footer_address:nth-child(4){
+    margin-bottom: 20px;
 }
 
 .email_footer_address{
@@ -430,4 +489,12 @@ ul,a{
     line-height: 16px;
     letter-spacing: 0.05em;
     color: #D4C17F;
+}
+
+.icon_footer>a{
+    margin-right: 20px;
+}
+
+.icon_footer>a:nth-child(3){
+    margin: 0px;
 }

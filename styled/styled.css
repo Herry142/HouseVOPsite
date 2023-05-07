@@ -269,34 +269,57 @@ ul,a{
     width: 535px;
 }
 
+.form_see{
+    margin-top: 80px;
+}
+
+
+.neme_see{
+    display: flex;
+}
+
 .input_name_see{
     background: #FFFFFF;
     opacity: 0.2;
-    border: none
+    border: none;
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    color: #BEBEBE;
+    width: 255px;
+    height: 50px;
+    text-align: center;
+    margin-right:  30px;
+}
 
+.input::placeholder{
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    color: #BEBEBE;
 }
 
 .input_numer_see{
     background: #FFFFFF;
     opacity: 0.2;
-    text-decoration: none;
     border: none;
-}
-
-.text_name_see{
+    text-decoration: none;
     font-family: 'Raleway';
     font-weight: 400;
     font-size: 14px;
     line-height: 27px;
     color: #BEBEBE;
+    width: 255px;
+    height: 50px;
+    text-align: center;
 }
 
-.text_numer_see{
-    font-family: 'Raleway';
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 27px;
-    color: #BEBEBE;
+.see_container_button{
+    display: flex;
+    margin-top: 46px;
 }
 
 .text_see_var{
@@ -305,6 +328,9 @@ ul,a{
     font-size: 13px;
     line-height: 16px;
     color: #E7E7E7;
+    width: 255px;
+    text-align: center;
+    margin-right: 30px;
 }
 
 .button_see{

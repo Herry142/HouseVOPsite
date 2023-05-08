@@ -120,6 +120,39 @@ ul,a{
     display: inline;
 }
 
+.numer_fons{
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 400px;
+    line-height: 533px;
+    color: #FFFFFF;
+    opacity: 0.02;  
+}
+
+.numer_2{
+    position: absolute;
+    left: 1470px;
+    top: 530px;
+}
+
+.numer_3{
+    position: absolute;
+    top: 1070px;
+    left: 210px;
+}
+
+.numer_4{
+    position: absolute;
+    left: 1330px;
+    top: 2620px;
+}
+
+.numer_5{
+    position: absolute;
+    top: 3393px;
+    left: 300px;
+}
+
 .section_reasons{
     display: flex;
     justify-content: center;
@@ -195,6 +228,7 @@ ul,a{
     font-size: 36px;
     line-height: 48px;
     color: #D4C17F;
+    margin-bottom: 100px;
 }
 
 .ul_apartments{
@@ -269,7 +303,7 @@ ul,a{
 }
 
 .form_see{
-    margin-top: 80px;
+    margin-top: 87px;
 }
 
 
@@ -282,10 +316,6 @@ ul,a{
     opacity: 0.2;
     border: none;
     text-decoration: none;
-    font-family: 'Raleway';
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 27px;
     width: 255px;
     height: 50px;
     text-align: center;
@@ -305,11 +335,6 @@ input::placeholder{
     opacity: 0.2;
     border: none;
     text-decoration: none;
-    font-family: 'Raleway';
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 27px;
-    color: #BEBEBE;
     width: 255px;
     height: 50px;
     text-align: center;
@@ -411,35 +436,27 @@ input::placeholder{
     line-height: 16px;
     color: #E7E7E7;
     width: 255px;
-    margin-right: 35px;
+    margin-right: 20px;
 }
 
 .input_name_question{
     background: #FFFFFF;
     opacity: 0.2;
     border: none;
+    width: 255px;
+    height: 50px;
+    text-align: center;
+    margin-right:  22px;
 }
 
 .input_numer_question{
     background: #FFFFFF;
     opacity: 0.2;
     border: none;
-}
-
-.text_name_question{
-    font-family: 'Raleway';
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 27px;
-    color: #BEBEBE;
-}
-
-.text_numer_question{
-    font-family: 'Raleway';
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 27px;
-    color: #BEBEBE;
+    width: 255px;
+    text-align: center;
+    margin-right:  25px;
+    height: 50px;
 }
 
 .button_question{
@@ -450,7 +467,8 @@ input::placeholder{
     color: #FFFFFF;
     background: #D4C17F;
     border: none;
-    padding: 12px 54px;
+    padding: 0px 54px;
+    height: 51px;
     cursor: pointer;
 }
 
